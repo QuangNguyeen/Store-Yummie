@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="OnBoadingCollectionViewCell" customModule="Yummie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="565"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="565"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rbd-Mh-RCw">
+                        <rect key="frame" x="0.0" y="0.0" width="353" height="565"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="slide1" translatesAutoresizingMaskIntoConstraints="NO" id="44Y-f7-FOs">
+                                <rect key="frame" x="0.0" y="0.0" width="353" height="484"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Yummie" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzk-sq-38s">
+                                <rect key="frame" x="30" y="494" width="293" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="From Sheep of God" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0K-r2-imN">
+                                <rect key="frame" x="30" y="534.5" width="293" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Kzk-sq-38s" firstAttribute="top" secondItem="44Y-f7-FOs" secondAttribute="bottom" constant="10" id="2X3-0f-1Yr"/>
+                            <constraint firstItem="F0K-r2-imN" firstAttribute="top" secondItem="Kzk-sq-38s" secondAttribute="bottom" constant="20" id="EKj-9q-Sop"/>
+                            <constraint firstAttribute="bottom" secondItem="F0K-r2-imN" secondAttribute="bottom" constant="10" id="Hic-sA-4fj"/>
+                            <constraint firstItem="F0K-r2-imN" firstAttribute="leading" secondItem="Rbd-Mh-RCw" secondAttribute="leading" constant="30" id="Jqc-H7-P8H"/>
+                            <constraint firstAttribute="trailing" secondItem="Kzk-sq-38s" secondAttribute="trailing" constant="30" id="LD2-i3-mvx"/>
+                            <constraint firstItem="44Y-f7-FOs" firstAttribute="leading" secondItem="Rbd-Mh-RCw" secondAttribute="leading" id="VFB-5f-sld"/>
+                            <constraint firstAttribute="trailing" secondItem="F0K-r2-imN" secondAttribute="trailing" constant="30" id="YQi-ao-4w9"/>
+                            <constraint firstItem="44Y-f7-FOs" firstAttribute="top" secondItem="Rbd-Mh-RCw" secondAttribute="top" id="fKF-AO-70O"/>
+                            <constraint firstAttribute="trailing" secondItem="44Y-f7-FOs" secondAttribute="trailing" id="pJj-XE-Vwd"/>
+                            <constraint firstItem="Kzk-sq-38s" firstAttribute="leading" secondItem="Rbd-Mh-RCw" secondAttribute="leading" constant="30" id="zNw-jD-irV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Rbd-Mh-RCw" secondAttribute="trailing" id="fLZ-UL-zqZ"/>
+                <constraint firstItem="Rbd-Mh-RCw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="l0e-iy-OXX"/>
+                <constraint firstAttribute="bottom" secondItem="Rbd-Mh-RCw" secondAttribute="bottom" id="mWd-yG-QBR"/>
+                <constraint firstItem="Rbd-Mh-RCw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vOn-Hc-IKy"/>
+            </constraints>
+            <size key="customSize" width="353" height="565"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="F0K-r2-imN" id="ClH-nQ-I3r"/>
+                <outlet property="iamge" destination="44Y-f7-FOs" id="dhM-EP-yUM"/>
+                <outlet property="titleLabel" destination="Kzk-sq-38s" id="mul-NW-IRU"/>
+            </connections>
+            <point key="canvasLocation" x="144.20289855072465" y="149.66517857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="slide1" width="484" height="457.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
