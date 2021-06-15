@@ -1,4 +1,5 @@
 PODS:
+  - Kingfisher (6.3.0)
   - Reusable (4.1.1):
     - Reusable/Storyboard (= 4.1.1)
     - Reusable/View (= 4.1.1)
@@ -9,6 +10,7 @@ PODS:
   - Then (2.7.0)
 
 DEPENDENCIES:
+  - Kingfisher
   - Reusable
   - SnapKit (~> 5.0.0)
   - SwiftGen
@@ -16,17 +18,19 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Kingfisher
     - Reusable
     - SnapKit
     - SwiftGen
     - Then
 
 SPEC CHECKSUMS:
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
   Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
   Then: acfe0be7e98221c6204e12f8161459606d5d822d
 
-PODFILE CHECKSUM: 51cd9a26f1022efd18ad42caa93921208b96f149
+PODFILE CHECKSUM: c93040ab39883aba864769ffd56b2fa39cde739d
 
 COCOAPODS: 1.10.1

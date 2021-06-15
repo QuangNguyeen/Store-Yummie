@@ -20,6 +20,16 @@
 		E352BE142675C44C008E85A7 /* OnBoadingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E352BE122675C44C008E85A7 /* OnBoadingCollectionViewCell.xib */; };
 		E352BE192675E22B008E85A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352BE172675E22B008E85A7 /* HomeViewController.swift */; };
 		E352BE1A2675E22B008E85A7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E352BE182675E22B008E85A7 /* HomeViewController.xib */; };
+		E352BE2126775FB3008E85A7 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352BE1F26775FB3008E85A7 /* CategoryCollectionViewCell.swift */; };
+		E352BE2226775FB3008E85A7 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E352BE2026775FB3008E85A7 /* CategoryCollectionViewCell.xib */; };
+		E352BE27267761CA008E85A7 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352BE26267761CA008E85A7 /* CategoryModel.swift */; };
+		E352BE31267762ED008E85A7 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352BE30267762ED008E85A7 /* String+.swift */; };
+		E352BE35267786B3008E85A7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352BE34267786B3008E85A7 /* CardView.swift */; };
+		E352BE3B2678948A008E85A7 /* DishPortraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352BE392678948A008E85A7 /* DishPortraitCollectionViewCell.swift */; };
+		E352BE3C2678948A008E85A7 /* DishPortraitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E352BE3A2678948A008E85A7 /* DishPortraitCollectionViewCell.xib */; };
+		E352BE402678961D008E85A7 /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352BE3F2678961D008E85A7 /* DishModel.swift */; };
+		E352BE4526789E0A008E85A7 /* DishLanscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352BE4326789E0A008E85A7 /* DishLanscapeCollectionViewCell.swift */; };
+		E352BE4626789E0A008E85A7 /* DishLanscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E352BE4426789E0A008E85A7 /* DishLanscapeCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +50,16 @@
 		E352BE122675C44C008E85A7 /* OnBoadingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoadingCollectionViewCell.xib; sourceTree = "<group>"; };
 		E352BE172675E22B008E85A7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E352BE182675E22B008E85A7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		E352BE1F26775FB3008E85A7 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E352BE2026775FB3008E85A7 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		E352BE26267761CA008E85A7 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		E352BE30267762ED008E85A7 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		E352BE34267786B3008E85A7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E352BE392678948A008E85A7 /* DishPortraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortraitCollectionViewCell.swift; sourceTree = "<group>"; };
+		E352BE3A2678948A008E85A7 /* DishPortraitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPortraitCollectionViewCell.xib; sourceTree = "<group>"; };
+		E352BE3F2678961D008E85A7 /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
+		E352BE4326789E0A008E85A7 /* DishLanscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLanscapeCollectionViewCell.swift; sourceTree = "<group>"; };
+		E352BE4426789E0A008E85A7 /* DishLanscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishLanscapeCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				E352BE0D2675C341008E85A7 /* OnboardingSlide.swift */,
+				E352BE26267761CA008E85A7 /* CategoryModel.swift */,
+				E352BE3F2678961D008E85A7 /* DishModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -134,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				E352BE092675C262008E85A7 /* UIView+.swift */,
+				E352BE30267762ED008E85A7 /* String+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -153,8 +176,47 @@
 			children = (
 				E352BE172675E22B008E85A7 /* HomeViewController.swift */,
 				E352BE182675E22B008E85A7 /* HomeViewController.xib */,
+				E352BE3326778695008E85A7 /* Card View */,
+				E352BE1E26775F67008E85A7 /* Category CollectionView */,
+				E352BE3826789457008E85A7 /* DishPortrait Collection */,
+				E352BE4226789DE8008E85A7 /* Dish Lanscape */,
 			);
 			path = "Home VC";
+			sourceTree = "<group>";
+		};
+		E352BE1E26775F67008E85A7 /* Category CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E352BE1F26775FB3008E85A7 /* CategoryCollectionViewCell.swift */,
+				E352BE2026775FB3008E85A7 /* CategoryCollectionViewCell.xib */,
+			);
+			path = "Category CollectionView";
+			sourceTree = "<group>";
+		};
+		E352BE3326778695008E85A7 /* Card View */ = {
+			isa = PBXGroup;
+			children = (
+				E352BE34267786B3008E85A7 /* CardView.swift */,
+			);
+			path = "Card View";
+			sourceTree = "<group>";
+		};
+		E352BE3826789457008E85A7 /* DishPortrait Collection */ = {
+			isa = PBXGroup;
+			children = (
+				E352BE392678948A008E85A7 /* DishPortraitCollectionViewCell.swift */,
+				E352BE3A2678948A008E85A7 /* DishPortraitCollectionViewCell.xib */,
+			);
+			path = "DishPortrait Collection";
+			sourceTree = "<group>";
+		};
+		E352BE4226789DE8008E85A7 /* Dish Lanscape */ = {
+			isa = PBXGroup;
+			children = (
+				E352BE4326789E0A008E85A7 /* DishLanscapeCollectionViewCell.swift */,
+				E352BE4426789E0A008E85A7 /* DishLanscapeCollectionViewCell.xib */,
+			);
+			path = "Dish Lanscape";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E352BE2226775FB3008E85A7 /* CategoryCollectionViewCell.xib in Resources */,
 				E352BE142675C44C008E85A7 /* OnBoadingCollectionViewCell.xib in Resources */,
 				E352BDF02675BC09008E85A7 /* LaunchScreen.storyboard in Resources */,
+				E352BE3C2678948A008E85A7 /* DishPortraitCollectionViewCell.xib in Resources */,
 				E352BE1A2675E22B008E85A7 /* HomeViewController.xib in Resources */,
+				E352BE4626789E0A008E85A7 /* DishLanscapeCollectionViewCell.xib in Resources */,
 				E352BDED2675BC09008E85A7 /* Assets.xcassets in Resources */,
 				E352BDEB2675BC05008E85A7 /* Main.storyboard in Resources */,
 			);
@@ -273,13 +338,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E352BE2126775FB3008E85A7 /* CategoryCollectionViewCell.swift in Sources */,
+				E352BE4526789E0A008E85A7 /* DishLanscapeCollectionViewCell.swift in Sources */,
 				E352BE0E2675C341008E85A7 /* OnboardingSlide.swift in Sources */,
+				E352BE31267762ED008E85A7 /* String+.swift in Sources */,
 				E352BE0A2675C262008E85A7 /* UIView+.swift in Sources */,
 				E352BE042675BF35008E85A7 /* OnBoardingViewController.swift in Sources */,
 				E352BDE42675BC05008E85A7 /* AppDelegate.swift in Sources */,
 				E352BE132675C44C008E85A7 /* OnBoadingCollectionViewCell.swift in Sources */,
 				E352BE192675E22B008E85A7 /* HomeViewController.swift in Sources */,
+				E352BE27267761CA008E85A7 /* CategoryModel.swift in Sources */,
+				E352BE402678961D008E85A7 /* DishModel.swift in Sources */,
+				E352BE35267786B3008E85A7 /* CardView.swift in Sources */,
 				E352BDE62675BC05008E85A7 /* SceneDelegate.swift in Sources */,
+				E352BE3B2678948A008E85A7 /* DishPortraitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

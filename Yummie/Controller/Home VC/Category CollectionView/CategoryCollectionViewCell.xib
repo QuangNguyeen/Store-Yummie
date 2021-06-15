@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="Yummie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="95"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="267" height="95"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UDh-3M-Q9k" customClass="CardView" customModule="Yummie" customModuleProvider="target">
+                        <rect key="frame" x="5" y="5" width="259" height="85"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide1" translatesAutoresizingMaskIntoConstraints="NO" id="AlZ-TC-3Zn">
+                                <rect key="frame" x="10" y="10" width="60" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="w9x-eR-LrG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qy6-wg-rzw">
+                                <rect key="frame" x="80" y="10" width="169" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Qy6-wg-rzw" firstAttribute="leading" secondItem="AlZ-TC-3Zn" secondAttribute="trailing" constant="10" id="Bzt-h5-nN9"/>
+                            <constraint firstAttribute="bottom" secondItem="AlZ-TC-3Zn" secondAttribute="bottom" constant="5" id="JRk-fF-A3N"/>
+                            <constraint firstAttribute="bottom" secondItem="Qy6-wg-rzw" secondAttribute="bottom" constant="10" id="JmS-xH-iH6"/>
+                            <constraint firstItem="AlZ-TC-3Zn" firstAttribute="leading" secondItem="UDh-3M-Q9k" secondAttribute="leading" constant="10" id="RfA-ck-ysC"/>
+                            <constraint firstItem="AlZ-TC-3Zn" firstAttribute="top" secondItem="UDh-3M-Q9k" secondAttribute="top" constant="10" id="ZsU-q6-WHW"/>
+                            <constraint firstItem="Qy6-wg-rzw" firstAttribute="top" secondItem="UDh-3M-Q9k" secondAttribute="top" constant="10" id="fr5-8Q-OAo"/>
+                            <constraint firstAttribute="trailing" secondItem="Qy6-wg-rzw" secondAttribute="trailing" constant="10" id="yVc-5n-lEJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="UDh-3M-Q9k" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="5JW-HA-lgd"/>
+                <constraint firstAttribute="bottom" secondItem="UDh-3M-Q9k" secondAttribute="bottom" constant="5" id="6Eo-jY-mGO"/>
+                <constraint firstAttribute="trailing" secondItem="UDh-3M-Q9k" secondAttribute="trailing" constant="3" id="LL7-lf-adN"/>
+                <constraint firstItem="UDh-3M-Q9k" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="kmv-RH-bg2"/>
+            </constraints>
+            <size key="customSize" width="267" height="95"/>
+            <connections>
+                <outlet property="categoryImage" destination="AlZ-TC-3Zn" id="Zrl-cF-J05"/>
+                <outlet property="titleLabel" destination="Qy6-wg-rzw" id="3W6-r1-cMo"/>
+            </connections>
+            <point key="canvasLocation" x="234.05797101449278" y="61.272321428571423"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="slide1" width="484" height="457.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

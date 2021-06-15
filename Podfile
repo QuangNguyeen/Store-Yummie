@@ -8,6 +8,7 @@ pod 'SwiftGen'
 pod 'Then'
 pod 'Reusable'
 pod 'SnapKit', '~> 5.0.0'
+pod 'Kingfisher' 
   # Pods for Yummie
 
 end
